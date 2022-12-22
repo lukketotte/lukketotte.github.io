@@ -5,11 +5,12 @@ import Body from './components/Body/Body';
 
 function App() {
   return (
-    <div className='grid justify-items-stretch grid-cols-1 laptop:grid-cols-3'>
+    <div className='grid justify-items-stretch grid-cols-1 laptop:grid-cols-6'>
+      <div></div>
       <div>
         <Card />
       </div>
-      <div className='laptop:col-span-2'>
+      <div className='laptop:col-span-3'>
         <Body />
       </div>
     </div>

@@ -9,7 +9,7 @@ export const Card = () => {
         alt={'Lukas'}
         className={'shadow rounded-full flex items-center justify-center w-64'}
       />
-      <div className='flex flex-row text-5xl'>
+      <div className='flex flex-row justify-center mt-2 text-5xl laptop:text-4xl'>
         <a href={'https://github.com/lukketotte'} className='hover:text-blue-400'>
           <AiFillGithub />
         </a>
