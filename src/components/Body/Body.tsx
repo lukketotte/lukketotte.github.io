@@ -3,14 +3,14 @@ import React from 'react';
 const Body = () => {
   return (
     <div className='flex flex-col pt-8 pl-20 pr-20 laptop:pl-0 laptop:pl-4'>
-      <h1 className='flex justify-center laptop:justify-start text-5xl font-bold font-serif'>
+      <h1 className='flex justify-center laptop:justify-start text-2xl laptop:text-5xl tablet:text-3xl font-bold font-serif'>
         Lukas Arnroth
       </h1>
       <h1 className='text-l mt-5 '>
         I am a PhD-candidate at the department of Statistics, Uppsala University. My research
         focuses on the exponential power class
       </h1>
-      <h1 className='text-3xl mt-5 mb-1'>Peer-reviewed publications</h1>
+      <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Peer-reviewed publications</h1>
       <ul className='list-disc ml-5'>
         <li>
           Ahmad, R., and Arnroth, L. (2022),{' '}
@@ -44,7 +44,7 @@ const Body = () => {
           , <em>Pharmaceutical statistics</em>
         </li>
       </ul>
-      <h1 className='text-3xl mt-5 mb-1'>Work in progress</h1>
+      <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Work in progress</h1>
       <ul className='list-disc ml-5'>
         <li>
           <a
@@ -64,7 +64,7 @@ const Body = () => {
           </a>
         </li>
       </ul>
-      <h1 className='text-3xl mt-5 mb-1'>Software</h1>
+      <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Software</h1>
       <ul className='list-disc ml-5'>
         <li>
           <b>MultServTests</b>:{' '}
