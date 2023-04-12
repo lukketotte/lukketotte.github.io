@@ -8,7 +8,8 @@ const Body = () => {
       </h1>
       <h1 className='text-l mt-5 '>
         I am a PhD-candidate at the department of Statistics, Uppsala University. My research
-        focuses on the exponential power class
+        focuses on the exponential power class and touches on, e.g., linear mixed models, quantile
+        regression, Bayesian density estimation and extreme values.
       </h1>
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Peer-reviewed publications</h1>
       <ul className='list-disc ml-5'>
@@ -63,6 +64,13 @@ const Body = () => {
             Composite Lp-quantile regression
           </a>
         </li>
+        <li>
+          Posterior contraction rate of Bayesian composite quantile regression (with Shaobo Jin)
+        </li>
+        <li>
+          Spatial extreme values based on the multivariate exponential power distribution (with
+          Alexander Engberg)
+        </li>
       </ul>
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Software</h1>
       <ul className='list-disc ml-5'>
@@ -100,11 +108,8 @@ const Body = () => {
         </li>
         <li>
           <b>Tumly</b> (full-stack dev):{' '}
-          <a
-            className='text-blue-600 hover:text-blue-400'
-            href={'http://tummy-app.s3-website.eu-north-1.amazonaws.com'}
-          >
-            tumly.com
+          <a className='text-blue-600 hover:text-blue-400' href={'http://tumly.se'}>
+            tumly.se
           </a>
         </li>
       </ul>
