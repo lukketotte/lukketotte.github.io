@@ -44,18 +44,19 @@ const Body = () => {
           </a>
           , <em>Pharmaceutical statistics</em>
         </li>
+        <li>
+          Arnroth, L., and Vegelius, J. (2022),{' '}
+          <a
+            className='text-blue-600 hover:text-blue-400'
+            href={'https://www.tandfonline.com/doi/full/10.1080/03610918.2023.2224945'}
+          >
+            "Quantile regression based on the skewed exponential power distribution"
+          </a>
+          , <em>Communications in Statistics - Simulation and Computation</em>
+        </li>
       </ul>
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Work in progress</h1>
       <ul className='list-disc ml-5'>
-        <li>
-          <a
-            className='text-blue-600 hover:text-blue-400'
-            href={'https://github.com/lukketotte/SepdQuantile.jl'}
-          >
-            Quantile regression based on the skewed exponential power distribution
-          </a>{' '}
-          (with Johan Vegelius)
-        </li>
         <li>
           <a
             className='text-blue-600 hover:text-blue-400'
