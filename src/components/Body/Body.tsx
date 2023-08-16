@@ -7,9 +7,21 @@ const Body = () => {
         Lukas Arnroth
       </h1>
       <h1 className='text-l mt-5 '>
-        I am a PhD-candidate at the department of Statistics, Uppsala University. My research
-        focuses on the exponential power class and touches on, e.g., linear mixed models, quantile
-        regression, Bayesian density estimation and extreme values.
+        <p>
+          I am a PhD-candidate at the department of Statistics, Uppsala University. My research
+          focuses on the exponential power class and touches on, e.g., linear mixed models, quantile
+          regression, Bayesian density estimation and extreme values.
+        </p>
+        <p>
+          From October 13th, I will join the{' '}
+          <a
+            className='text-blue-600 hover:text-blue-400'
+            href={'https://www.vickovictechinnovation.com/'}
+          >
+            Vickovic lab
+          </a>{' '}
+          as a post doctoral researcher with focus on Bayesian inference in spatial transcriptomics.
+        </p>
       </h1>
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Peer-reviewed publications</h1>
       <ul className='list-disc ml-5'>
