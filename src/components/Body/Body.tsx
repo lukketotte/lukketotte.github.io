@@ -7,8 +7,8 @@ const Body = () => {
         Lukas Arnroth, PhD
       </h1>
       <h1 className='text-l mt-5 '>
-        <p>
-          Currently, I'm a postdoc at
+        <p className='py-1'>
+          Currently, I'm a postdoc at{' '}
           <a
             className='text-blue-600 hover:text-blue-400'
             href={'https://www.vickovictechinnovation.com/'}
@@ -17,10 +17,13 @@ const Body = () => {
           </a>{' '}
           with focus on Bayesian inference in spatial transcriptomics.
         </p>
-        <p>
+        <p className='py-1'>
           I have a PhD from the department of Statistics, Uppsala University. My thesis
           focuses on the exponential power class and touches on, e.g., linear mixed models, quantile
-          regression, Bayesian density estimation and extreme values.
+          regression, Bayesian density estimation.
+        </p>
+        <p className='py-1'>
+          Other research areas of interest are spatial statistics and extreme value analysis.
         </p>
       </h1>
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Peer-reviewed publications</h1>
