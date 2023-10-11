@@ -4,23 +4,23 @@ const Body = () => {
   return (
     <div className='flex flex-col pt-8 pl-20 pr-20 laptop:pl-0 laptop:pl-4'>
       <h1 className='flex justify-center laptop:justify-start text-2xl laptop:text-5xl tablet:text-3xl font-bold font-serif'>
-        Lukas Arnroth
+        Lukas Arnroth, PhD
       </h1>
       <h1 className='text-l mt-5 '>
         <p>
-          I am a PhD-candidate at the department of Statistics, Uppsala University. My research
-          focuses on the exponential power class and touches on, e.g., linear mixed models, quantile
-          regression, Bayesian density estimation and extreme values.
-        </p>
-        <p>
-          From October 13th, I will join the{' '}
+          Currently, I'm a postdoc at
           <a
             className='text-blue-600 hover:text-blue-400'
             href={'https://www.vickovictechinnovation.com/'}
           >
             Vickovic lab
           </a>{' '}
-          as a post doctoral researcher with focus on Bayesian inference in spatial transcriptomics.
+          with focus on Bayesian inference in spatial transcriptomics.
+        </p>
+        <p>
+          I have a PhD from the department of Statistics, Uppsala University. My thesis
+          focuses on the exponential power class and touches on, e.g., linear mixed models, quantile
+          regression, Bayesian density estimation and extreme values.
         </p>
       </h1>
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Peer-reviewed publications</h1>
