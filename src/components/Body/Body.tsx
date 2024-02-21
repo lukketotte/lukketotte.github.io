@@ -27,8 +27,28 @@ const Body = () => {
         </p>
       </h1>
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Peer-reviewed publications</h1>
-      <ul className='list-disc ml-5'>
-        <li>
+      <ul className='list-disc ml-5 mt-1'>
+        <li className='mb-1'>
+          Arnroth, L. (2024),{' '}
+          <a
+            className='text-blue-600 hover:text-blue-400'
+            href={'https://link.springer.com/journal/184'}
+          >
+            "Composite Lp-quantile regression"
+          </a>
+          , <em>Metrika</em>
+        </li>
+        <li className='mb-1'>
+          Arnroth, L., and Vegelius, J. (2023),{' '}
+          <a
+            className='text-blue-600 hover:text-blue-400'
+            href={'https://www.tandfonline.com/doi/full/10.1080/03610918.2023.2224945'}
+          >
+            "Quantile regression based on the skewed exponential power distribution"
+          </a>
+          , <em>Communications in Statistics - Simulation and Computation</em>
+        </li>
+        <li className='mb-1'>
           Ahmad, R., and Arnroth, L. (2022),{' '}
           <a
             className='text-blue-600 hover:text-blue-400'
@@ -38,7 +58,7 @@ const Body = () => {
           </a>
           , <em>Journal of Statistical Computation and Simulation</em>
         </li>
-        <li>
+        <li className='mb-1'>
           Ahmad, R., and Arnroth, L. (2022),{' '}
           <a
             className='text-blue-600 hover:text-blue-400'
@@ -48,7 +68,7 @@ const Body = () => {
           </a>
           , <em>Communications in Statistics - Theory and Methods</em>
         </li>
-        <li>
+        <li className='mb-1'>
           Arnroth, L., Persson, I., and Thulin, M. (2019),{' '}
           <a
             className='text-blue-600 hover:text-blue-400'
@@ -59,38 +79,20 @@ const Body = () => {
           </a>
           , <em>Pharmaceutical statistics</em>
         </li>
-        <li>
-          Arnroth, L., and Vegelius, J. (2022),{' '}
-          <a
-            className='text-blue-600 hover:text-blue-400'
-            href={'https://www.tandfonline.com/doi/full/10.1080/03610918.2023.2224945'}
-          >
-            "Quantile regression based on the skewed exponential power distribution"
-          </a>
-          , <em>Communications in Statistics - Simulation and Computation</em>
-        </li>
       </ul>
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Work in progress</h1>
       <ul className='list-disc ml-5'>
-        <li>
-          <a
-            className='text-blue-600 hover:text-blue-400'
-            href={'https://github.com/lukketotte/CompositeLPQR'}
-          >
-            Composite Lp-quantile regression
-          </a>
-        </li>
-        <li>
+        <li className='mb-1'>
           Posterior contraction rate of Bayesian composite quantile regression (with Shaobo Jin)
         </li>
-        <li>
+        <li className='mb-1'>
           Spatial extreme values based on the multivariate exponential power distribution (with
           Alexander Engberg)
         </li>
       </ul>
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>Software</h1>
       <ul className='list-disc ml-5'>
-        <li>
+        <li className='mb-1'>
           <b>MultServTests</b>:{' '}
           <a
             className='text-blue-600 hover:text-blue-400'
@@ -106,7 +108,7 @@ const Body = () => {
             Github
           </a>
         </li>
-        <li>
+        <li className='mb-1'>
           <b>BayesQR.jl</b>:{' '}
           <a
             className='text-blue-600 hover:text-blue-400'
@@ -122,7 +124,7 @@ const Body = () => {
             Github
           </a>
         </li>
-        <li>
+        <li className='mb-1'>
           <b>Tumly</b> (full-stack dev):{' '}
           <a className='text-blue-600 hover:text-blue-400' href={'http://tumly.se'}>
             tumly.se
