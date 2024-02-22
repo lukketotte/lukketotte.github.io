@@ -32,7 +32,7 @@ const Body = () => {
           Arnroth, L. (2024),{' '}
           <a
             className='text-blue-600 hover:text-blue-400'
-            href={'https://link.springer.com/journal/184'}
+            href={'https://link.springer.com/article/10.1007/s00184-024-00950-8'}
           >
             "Composite Lp-quantile regression"
           </a>
