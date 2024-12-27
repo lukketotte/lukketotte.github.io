@@ -30,7 +30,7 @@ export const Homepage = () => {
 };
 ```
 
-Note further that `name` and `homepage` has to be modified for your specific repo. 
+Note further that `name` and `homepage` of the `package.json` file has to be modified for your specific repo. 
 
 ## Publishing
 
