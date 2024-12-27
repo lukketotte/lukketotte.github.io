@@ -30,3 +30,8 @@ export const Homepage = () => {
 };
 ```
 
+Note further that `name` and `homepage` has to be modified for your specific repo. 
+
+## Publishing
+
+To publish the page, run `npm run deploy`. Make sure to modify the pages of the repository following the [Github guidelines](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
