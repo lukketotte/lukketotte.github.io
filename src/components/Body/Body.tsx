@@ -33,8 +33,8 @@ const Body = () => {
       </h1>
       <ul className='list-disc ml-5 mt-1'>
         <li className='mb-1'>
-          Arnroth, L., and Shaobo, J. (2024), "Posterior rates of convergence
-          for composite quantile regression" (accepted Dec 2024) ,{" "}
+          Arnroth, L., and Shaobo, J. (accepted Dec 2024), "Posterior rates of
+          convergence for composite quantile regression" ,{" "}
           <em>Communications in Statistics - Theory and Methods</em>
         </li>
         <li className='mb-1'>
