@@ -19,7 +19,7 @@ export const Card = () => {
         </a>
         <a
           href={"https://www.linkedin.com/in/lukas-arnroth-b51430140/"}
-          className='hover:text-blue-400'
+          className='hover:text-orange-400'
         >
           <AiFillLinkedin />
         </a>
@@ -27,13 +27,13 @@ export const Card = () => {
           href={
             "https://scholar.google.com/citations?user=v07Y_jPhN0cC&hl=en&oi=ao"
           }
-          className='hover:text-blue-400'
+          className='hover:text-lime-400'
         >
           <SiGooglescholar />
         </a>
         <a
           href={"mailto: lukas.arnroth@gmail.com"}
-          className='hover:text-blue-400'
+          className='hover:text-indigo-400'
         >
           <AiFillMail />
         </a>
