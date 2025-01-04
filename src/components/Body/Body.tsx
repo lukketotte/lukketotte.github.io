@@ -33,8 +33,8 @@ const Body = () => {
       </h1>
       <ul className='list-disc ml-5 mt-1'>
         <li className='mb-1'>
-          Arnroth, L., and Shaobo, J. (accepted Dec 2024), "Posterior rates of
-          convergence for composite quantile regression" ,{" "}
+          <b>Arnroth, L.</b>, and Shaobo, J. (accepted Dec 2024), "Posterior
+          rates of convergence for composite quantile regression" ,{" "}
           <em>Communications in Statistics - Theory and Methods</em>
         </li>
         <li className='mb-1'>
@@ -50,7 +50,7 @@ const Body = () => {
           , <em>Metrika</em>
         </li>
         <li className='mb-1'>
-          Arnroth, L., and Vegelius, J. (2023),{" "}
+          <b>Arnroth, L.</b>, and Vegelius, J. (2023),{" "}
           <a
             className='text-blue-600 hover:text-blue-400'
             href={
@@ -63,7 +63,7 @@ const Body = () => {
           , <em>Communications in Statistics - Simulation and Computation</em>
         </li>
         <li className='mb-1'>
-          Ahmad, R., and Arnroth, L. (2022),{" "}
+          Ahmad, R., and <b>Arnroth, L.</b> (2022),{" "}
           <a
             className='text-blue-600 hover:text-blue-400'
             href={
@@ -76,7 +76,7 @@ const Body = () => {
           , <em>Journal of Statistical Computation and Simulation</em>
         </li>
         <li className='mb-1'>
-          Ahmad, R., and Arnroth, L. (2022),{" "}
+          Ahmad, R., and <b>Arnroth, L.</b> (2022),{" "}
           <a
             className='text-blue-600 hover:text-blue-400'
             href={
@@ -88,7 +88,7 @@ const Body = () => {
           , <em>Communications in Statistics - Theory and Methods</em>
         </li>
         <li className='mb-1'>
-          Arnroth, L., Persson, I., and Thulin, M. (2019),{" "}
+          <b>Arnroth, L.</b>, Persson, I., and Thulin, M. (2019),{" "}
           <a
             className='text-blue-600 hover:text-blue-400'
             href={"https://onlinelibrary.wiley.com/doi/full/10.1002/pst.1938"}
@@ -123,7 +123,15 @@ const Body = () => {
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>&#128187; Software</h1>
       <ul className='list-disc ml-5'>
         <li className='mb-1'>
-          <b>MultServTests</b>:{" "}
+          <b>MultServTests</b>
+          {"("}
+          <a
+            className='text-blue-600 hover:text-blue-400'
+            href={"https://www.datasciencemeta.com/rpackages"}
+          >
+            {">"} 9000 downloads
+          </a>
+          {")"}:{" "}
           <a
             className='text-blue-600 hover:text-blue-400'
             href={
