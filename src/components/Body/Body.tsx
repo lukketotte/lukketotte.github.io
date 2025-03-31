@@ -1,5 +1,5 @@
 import React from "react";
-
+//https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1780028&dswid=-7812
 const Body = () => {
   return (
     <div className='flex flex-col pt-8 pl-20 pr-20 laptop:pl-0 laptop:pl-4 mb-6'>
@@ -19,9 +19,18 @@ const Body = () => {
         </p>
         <p className='py-1'>
           I hold a PhD from the Department of Statistics at Uppsala University.
-          My doctoral thesis explores the exponential power class and addresses
-          topics such as linear mixed models, quantile regression, and Bayesian
-          density estimation.
+          My{" "}
+          <a
+            className='text-blue-600 hover:text-blue-400'
+            href={
+              "https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1780028&dswid=-7812"
+            }
+          >
+            doctoral thesis
+          </a>{" "}
+          explores the exponential power class and addresses topics such as
+          linear mixed models, quantile regression, and Bayesian density
+          estimation.
         </p>
         <p className='py-1'>
           My additional research interests include spatial statistics and
