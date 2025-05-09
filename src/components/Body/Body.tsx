@@ -120,16 +120,14 @@ const Body = () => {
       </h1>
       <ul className='list-disc ml-5'>
         <li className='mb-1'>
-          Modeling spatial multiomic data with INLA (with{" "}
+          <b>Arnroth, L.</b>, Vickovic, S. (2025), "INLAomics for Scalable and
+          Interpretable Spatial Multiomic Data Integration",{" "}
           <a
             className='text-blue-600 hover:text-blue-400'
-            href={
-              "https://www.nygenome.org/about-us/our-people/faculty-scientists/sanja-vickovic-phd/"
-            }
+            href={"https://www.biorxiv.org/content/10.1101/2025.05.02.651831v1"}
           >
-            Sanja Vickovic
+            Biorxiv preprint
           </a>
-          )
         </li>
         <li className='mb-1'>
           Spatial extreme values based on the multivariate exponential power
