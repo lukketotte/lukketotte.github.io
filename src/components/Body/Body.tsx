@@ -134,6 +134,45 @@ const Body = () => {
           distribution (with Alexander Engberg)
         </li>
       </ul>
+      <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>
+        &#128172; Selected talks
+      </h1>
+      <ul className='list-disc ml-5'>
+        <li className='mb-1'>2025 - SciLifeLab Uppsala Spring Symposium</li>
+        <li className='mb-1'>
+          2024 -{" "}
+          <a
+            className='text-blue-600 hover:text-blue-400'
+            href={"https://www.furthlab.xyz/moltools#all"}
+          >
+            Molecular Tools for Functional Genomics
+          </a>
+          , Dept. of IGG (UU)
+        </li>
+        <li className='mb-1'>2023 - UppUpp, Dept. of Statistics (UU)</li>
+        <li className='mb-1'>2023 - Seminar, Dept. of Mathematics (UU)</li>
+        <li className='mb-1'>
+          2020 -{" "}
+          <a
+            className='text-blue-600 hover:text-blue-400'
+            href={"https://linstat2024.science.upjs.sk/"}
+          >
+            LinStat
+          </a>
+          , (Poprad, Slovakia)
+        </li>
+        <li className='mb-1'>
+          2019 -{" "}
+          <a
+            className='text-blue-600 hover:text-blue-400'
+            href={"https://www.cmstatistics.org/"}
+          >
+            CMStatistics
+          </a>
+          , (London, UK)
+        </li>
+        <li className='mb-1'>2019 - UppUpp, Dept. of Statistics (UU)</li>
+      </ul>
       <h1 className='text-2xl tablet:text-3xl mt-5 mb-1'>&#128187; Software</h1>
       <ul className='list-disc ml-5'>
         <li className='mb-1'>
