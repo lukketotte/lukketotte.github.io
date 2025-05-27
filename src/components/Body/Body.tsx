@@ -147,7 +147,7 @@ const Body = () => {
           >
             Molecular Tools for Functional Genomics
           </a>
-          , Dept. of IGG (UU)
+          , Dept. of IGP (UU)
         </li>
         <li className='mb-1'>2023 - UppUpp, Dept. of Statistics (UU)</li>
         <li className='mb-1'>2023 - Seminar, Dept. of Mathematics (UU)</li>
